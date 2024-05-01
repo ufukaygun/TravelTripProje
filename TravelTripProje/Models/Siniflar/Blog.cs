@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace TravelTripProje.Models
+namespace TravelTripProje.Models.Siniflar
 {
     public class Blog
     {
@@ -14,5 +14,8 @@ namespace TravelTripProje.Models
         public DateTime Tarih { get; set; }
         public string Aciklama { get; set; }
         public string BlogImage { get; set; }
+
+        // ICollection interface listeleme işlemlerinde kullanılır.
+        public ICollection<Yorumlar> Yorumlars { get; set;}
     }
 }
