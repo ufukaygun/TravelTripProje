@@ -47,28 +47,19 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </p>
                     }
                 </div>
+                @foreach (var y in Model.Deger2)
+                {
                 <ul class="comment-list">
                     <h5 class="post-author_head">Written by <a href="#" title="Posts by admin" rel="author">admin</a></h5>
                     <li>
                         <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
                         <div class="desc">
-                            <p>Ufuk Aygün: yorum yazacak...</p>
+                            <p>@y.KullaniciAdi : @y.Yorum.</p>
                         </div>
                         <div class="clearfix"></div>
                     </li>
-
                 </ul>
-                <ul class="comment-list">
-                    <h5 class="post-author_head">Written by <a href="#" title="Posts by admin" rel="author">admin</a></h5>
-                    <li>
-                        <img src="~/web2/images/avatar.png" class="img-responsive" alt="">
-                        <div class="desc">
-                            <p>Ufuk Aygün: yorum yazacak...</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </li>
-
-                </ul>
+                }
                 <div class="content-form">
                     <h3>Bir Yorum Yapın</h3>
                     <form>
