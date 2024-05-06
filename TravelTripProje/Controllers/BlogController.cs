@@ -11,12 +11,17 @@ namespace TravelTripProje.Controllers
     {
         // GET: Blog
         Context c = new Context();
+        BlogYorum by = new BlogYorum();
         public ActionResult Index()
         {
-            var bloglar = c.Blogs.ToList();
-            return View(bloglar);
+            //var bloglar = c.Blogs.ToList();
+            by.Deger1=c.Blogs.ToList(); 
+            //Take 3 tane bloğu alson anlamı
+            //SOn Blog kavramı descending ile yapılır
+            by.Deger3=c.Blogs.Take(3).ToList(); 
+            return View(by);
         }
-        BlogYorum by = new BlogYorum();
+       
         public ActionResult BlogDetay(int id)
         {
             //var blogbul = c.Blogs.Where(x => x.ID == id).ToList();
