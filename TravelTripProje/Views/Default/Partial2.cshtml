@@ -6,12 +6,12 @@
 
 <div class="right">
     <div class="bot-left">
-        <img src="@x.BlogImage" alt="" />
+        <img src="@x.BlogImage" alt="" style="aspect-ratio:4/3" />
     </div>
     <div class="left-text">
         <h4>@x.Baslik</h4>
-        <span class="doller">@x.Tarih</span>
-        <p> Açıklama gelecek</p>
+        <span class="doller">@x.Tarih.ToString("dd.MM.yyyy")</span>
+        <p> @x.Aciklama.Substring(0, x.Aciklama.Substring(0, 80).LastIndexOf(" "))... </p>
         <p> <a href ="/Blog/BlogDetay/@x.ID"><span class="read">Devamını Oku</span></a></p>
     </div>
 </div>
