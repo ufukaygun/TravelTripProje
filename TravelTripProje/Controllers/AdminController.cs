@@ -17,5 +17,20 @@ namespace TravelTripProje.Controllers
 
             return View(degerler);
         }
+
+        //İki tane aynı isimde  ActionResult tanımladık çünkü bunkların biri [Httpget] te çalışacak.YAni sayfa yüklendiğinde çalışacak.Sayfayı bize geri döndürecek
+        [HttpGet]
+        public ActionResult YeniBlog()
+        {
+            return View();
+        }
+
+        //Birşeyler yapıldığında burayı dööndür.
+        //HAta vermemesi için Blog tan parametre çağırdık
+        [HttpPost]
+        public ActionResult YeniBlog(Blog p) 
+        {
+            return View();
+        }
     }
 }
