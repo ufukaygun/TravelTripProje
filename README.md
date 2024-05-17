@@ -21,3 +21,6 @@ Projede Kullanılan Teknolojiler ve Kütüphaneler;
 
 # Anasayfa 
 ![Anasayfa](https://raw.githubusercontent.com/ufukaygun/TravelTripProje/master/TravelTripProje/Assets/Travel-Anasayfa.png)
+
+# Blogum Sayfası
+![Blogum Sayfası](TravelTripProje/Assets/Travel-Blog.png)
