@@ -24,3 +24,18 @@ Projede Kullanılan Teknolojiler ve Kütüphaneler;
 
 # Blogum Sayfası
 ![Blogum Sayfası](TravelTripProje/Assets/Travel-Blog.png)
+
+# Blog Detay Sayfası
+![Blogum Detay Sayfası](TravelTripProje/Assets/Travel-BlogDetay.png)
+
+# Admin Giriş
+![Admin Giriş](TravelTripProje/Assets/Travel-Admin-Giris.png)
+
+# Admin Paneli
+![Admin Paneli](TravelTripProje/Assets/Travel-Admin-Paneli.png)
+
+# Admin Blog Güncelleme
+![Admin Blog Güncelleme](TravelTripProje/Assets/Travel-Admin-Blog-Guncelleme.png)
+
+# Admin Yorum Listesi
+![Admin Yorum Listesi](TravelTripProje/Assets/Travel-Admin-Yorum-Listesi.png)
