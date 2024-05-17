@@ -149,10 +149,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assest\about.jpg" />
-    <Content Include="Assest\Travel-Anasayfa.png" />
-    <Content Include="Assest\Travel-Blog.png" />
-    <Content Include="Assest\Travel-BlogDetay.png" />
+    <Content Include="Assets\about.jpg" />
+    <Content Include="Assets\Travel-Admin-Blog-Guncelleme.png" />
+    <Content Include="Assets\Travel-Admin-Giris.png" />
+    <Content Include="Assets\Travel-Admin-Paneli.png" />
+    <Content Include="Assets\Travel-Admin-Yorum-Listesi.png" />
+    <Content Include="Assets\Travel-Anasayfa.png" />
+    <Content Include="Assets\Travel-Blog.png" />
+    <Content Include="Assets\Travel-BlogDetay.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
