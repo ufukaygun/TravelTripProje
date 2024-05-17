@@ -150,6 +150,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assest\about.jpg" />
+    <Content Include="Assest\Travel-Anasayfa.png" />
+    <Content Include="Assest\Travel-Blog.png" />
+    <Content Include="Assest\Travel-BlogDetay.png" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
