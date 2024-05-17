@@ -20,4 +20,4 @@ Projede Kullanılan Teknolojiler ve Kütüphaneler;
 -Context Yapısı
 
 # Anasayfa 
-![Anasayfa](https://raw.githubusercontent.com/ufukaygun/TravelTripProje/master/TravelTripProje/Assest/Travel-Anasayfa.png)
+![Anasayfa](https://raw.githubusercontent.com/ufukaygun/TravelTripProje/master/TravelTripProje/Assets/Travel-Anasayfa.png)
